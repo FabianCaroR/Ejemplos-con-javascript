@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body center>
+<script type="text/javascript">
+function suma(Numero1, Numero2){
+
+var Numero1 = parseFloat(document.getElementById("number1").value)
+var Numero2 = parseFloat(document.getElementById("number2").value)
+var suma = 0
+
+
+suma  = Numero1+Numero2
+console.log(Numero1)
+alert("EL resultado de la suma es "+suma)
+}
+</script>
+    <header>
+        <section class="section">
+             <br>
+            <h1>CALCULADORA</h1>
+            <br><br>
+            <p>Ingrese el primer numero</p>
+            <input type="number" id="number1">
+            <br>
+            <br>
+            <p>Ingrese el segundo numero</p>
+            <input type="number" id="number2">
+            <br>
+            <br>
+            <br>
+            <button onclick="suma()">sumar</button>
+        </section>
+
+
+
+
+    </header>
+</body>
+</html>
